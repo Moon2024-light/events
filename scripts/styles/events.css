@@ -1,0 +1,64 @@
+:root{
+    --colou-main: green;
+    --colour-secondary: light green;
+    --colour-tertiary: light beige;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+.header-page_title{
+    color: var(--colou-main);
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+}
+.animal-tabs{
+    background-color: var(--colou-main);
+    display: flex;
+    justify-content: space-evenly;
+    padding: var(--space-small) var(--space-large);
+}
+.tab{
+    background-color: var(--colour-tertiary);
+    border-radius: 10px;
+    color: var(--colou-main);
+    font-weight: 700;
+    background-color: aquamarine;
+    padding: var(--space-small) var(--space-base);
+  }
+.active {
+    background-color: var(--colour-secondary);
+    color: var(--colour-)
+}
+
+
+.fearech{
+  display: block;
+}
+.search-field {
+   text-align: center;
+   color: var(--colou-main);
+   padding: var(--space-base);
+}
+.search-field input{
+    border-color: var(--colou-main);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+  
